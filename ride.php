@@ -21,7 +21,7 @@ foreach ($passwords as $password) {
 
     echo 'Trying password: ' . $password . PHP_EOL;
 
-    $req = new HTTP_Request2('http://localhost/codeLink/ride/testgit/checklogin.php', HTTP_Request2::METHOD_POST);
+    $req = new HTTP_Request2('http://localhost/codeLink/ride/test/checklogin.php', HTTP_Request2::METHOD_POST);
 
     $req->addCookie('XDEBUG_SESSION','XDEBUG_ECLIPSE');
 
