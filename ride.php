@@ -26,7 +26,7 @@ foreach ($passwords as $password) {
     $req->addCookie('XDEBUG_SESSION','XDEBUG_ECLIPSE');
 
     $req->setHeader('User-Agent: godzilla');
-    $req->setHeader('Foo: Bar');
+    //$req->setHeader('Foo: Bar');
 
 
     $req->addPostParameter('myusername', 'lego');
