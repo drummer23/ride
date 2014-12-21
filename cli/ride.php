@@ -1,9 +1,5 @@
 <?php
-/**
- * User: Vince 52
- * Date: 13/12/14
- * Time: 23:54
- */
+
 
 require_once 'HTTP/Request2.php';
 
