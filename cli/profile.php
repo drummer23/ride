@@ -10,7 +10,7 @@ $muster = Array (
 
     "Url" => "/(?<=curl\s)'[^']*'/",
     "Header" => "/(?<=-H\s)'[^']*'/",
-    "Data" => "/(?<=--data\s)'.*\&/"
+    "Data" => "/(?<=--data\s)'[^=]*=[^\&]*/"
 );
 
 foreach($muster as $key => $curmuster){
